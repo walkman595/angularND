@@ -1,0 +1,102 @@
+<div class="container p-1">
+  <div class="row justify-content-center" >
+    <div class="col-6 p-3">
+
+        <input class="form-control" type="text" [value]="equation" readonly >
+
+
+      <div class="row p-1">
+
+
+        <div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('7')">7</button>
+
+        </div>
+        <div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('8')">8</button>
+
+        </div><div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('9')">9</button>
+
+        </div><div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('-')">-</button>
+
+        </div>
+
+
+      </div>
+      <div class="row p-1">
+
+
+        <div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('4')">4</button>
+
+        </div>
+        <div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('5')">5</button>
+
+        </div><div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('6')">6</button>
+
+        </div><div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('+')">+</button>
+
+        </div>
+
+
+      </div>
+      <div class="row p-1">
+
+
+        <div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('1')">1</button>
+
+        </div>
+        <div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('2')">2</button>
+
+        </div><div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('3')">3</button>
+
+        </div><div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('*')">X</button>
+
+        </div>
+
+
+      </div>
+      <div class="row p-1">
+
+
+        <div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('0')">0</button>
+
+        </div>
+        <div class="col-6 p-1">
+
+          <button class="btn btn-block btn-info " (click)="calculate()">=</button>
+
+        </div><div class="col-3 p-1">
+
+          <button class="btn btn-block btn-light " (click)="addChar('/')">/</button>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
